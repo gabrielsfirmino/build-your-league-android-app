@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.gabrielsfirmino.build_your_league_android_app"
+        applicationId "com.example.gabrielsfirmino.buildyourleague"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1

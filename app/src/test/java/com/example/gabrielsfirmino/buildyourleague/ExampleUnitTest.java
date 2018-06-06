@@ -1,4 +1,4 @@
-package com.example.gabrielsfirmino.build_your_league_android_app;
+package com.example.gabrielsfirmino.buildyourleague;
 
 import org.junit.Test;
 

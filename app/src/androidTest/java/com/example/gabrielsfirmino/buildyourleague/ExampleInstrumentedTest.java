@@ -1,4 +1,4 @@
-package com.example.gabrielsfirmino.build_your_league_android_app;
+package com.example.gabrielsfirmino.buildyourleague;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.gabrielsfirmino.build_your_league_android_app", appContext.getPackageName());
+        assertEquals("com.example.gabrielsfirmino.buildyourleague", appContext.getPackageName());
     }
 }
