@@ -6,6 +6,23 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.EditText" parent="android:Widget">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">#044301</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/default_edit_text</item>
+        <item name="fontFamily">@font/audiowide</item>
+    </style>
+
+    <style name="Widget.ButtonBlue" parent="android:Widget">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/default_button_selected</item>
+        <item name="fontFamily">@font/audiowide</item>
     </style>
 
 </resources>
