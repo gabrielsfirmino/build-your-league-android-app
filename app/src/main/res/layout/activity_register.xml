@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/ic_logo" />
 
     <EditText
-        android:id="@+id/nameEdit"
+        android:id="@+id/nameEditRegister"
         style="@style/Widget.EditText"
         android:layout_width="317dp"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:drawablePadding="10dp"
         android:drawableStart="@drawable/ic_account_outline"
         android:fontFamily="@font/audiowide"
-        android:hint="Nome completo"
+        android:hint="Usuário"
         android:textColorHint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/emailEdit"
+        android:id="@+id/emailEditRegister"
         style="@style/Widget.EditText"
         android:layout_width="317dp"
         android:layout_height="wrap_content"
@@ -53,10 +53,10 @@
         android:textColorHint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/nameEditRegister" />
 
     <EditText
-        android:id="@+id/passwordEdit"
+        android:id="@+id/passwordEditRegister"
         style="@style/Widget.EditText"
         android:layout_width="317dp"
         android:layout_height="wrap_content"
@@ -71,10 +71,10 @@
         android:textColorHint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/emailEditRegister" />
 
     <Button
-        android:id="@+id/signInButton"
+        android:id="@+id/signInButtonRegister"
         style="@style/Widget.ButtonBlue"
         android:layout_width="237dp"
         android:layout_height="wrap_content"
@@ -90,6 +90,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditRegister" />
 
 </android.support.constraint.ConstraintLayout>
